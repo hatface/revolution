@@ -1,0 +1,19 @@
+#模型的名称
+ModelName: demo
+
+#模型的导航栏，使用分号分割集联导航栏
+Navigation: 'demo'
+
+#模型的结构，目前支持String和Select的数据类型
+Collumns:
+    - 
+        Name: username
+        Type: 'String'
+        DefaultVaule: ''
+    - 
+        Name: grade
+        Type: 'Select'
+        Values: 
+            - 'grade one'
+            - 'grade two'
+        DefaultValue: 'grade one'
